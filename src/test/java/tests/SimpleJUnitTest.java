@@ -1,3 +1,5 @@
+package tests;
+
 import org.junit.jupiter.api.*;
 
 public class SimpleJUnitTest {
@@ -19,8 +21,8 @@ public class SimpleJUnitTest {
     }
 
     @BeforeAll
-    static void stayAwhileAndLister(){
-        System.out.println("### stayAwhileAndLister\n");
+    static void stayAwhileAndListen(){
+        System.out.println("### stayAwhileAndListen\n");
     }
     @BeforeEach
     void doItBabyEveryTime(){
